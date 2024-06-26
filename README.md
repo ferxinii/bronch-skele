@@ -7,7 +7,7 @@ Python module to extract the skeleton from a bronchial tree mesh, as well as inf
 </p>
 <p align="center">
 <img src="./images/example_3.png" alt="Lobe information on nodes" width="400" height="auto" />
-<img src="./images/example_4.jpg" alt="Connectivity graph" width="400" height="auto">
+<img src="./images/example_4.png" alt="Connectivity graph" width="400" height="auto">
 </p>
 
 
