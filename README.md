@@ -3,7 +3,6 @@ Python module to extract the skeleton from a bronchial tree mesh, as well as inf
 
 <p align="center">
 <img src="./images/example_1.png" alt="Input mesh" width="400" height="auto" />
-<figcaption>{{ include.description }}</figcaption>
 <img src="./images/example_2.png" alt="Extracted skeleton" width="400" height="auto">
 </p>
 <p align="center">
