@@ -1,5 +1,6 @@
 # bronch-skele
 Python module to extract the skeleton from a bronchial tree mesh, as well as information regarding generation, lobe, intrabronchial distance matrix, and terminal information ready for the Bubble Model.
+The file *main.py* contains an example on how to run the module.
 
 <p align="center">
 <img src="./images/example_1.png" alt="Input mesh" width="400" height="auto" />
