@@ -1,4 +1,4 @@
-import bronch-skele as sk
+import bronch_skele as sk
 
 PATH_STL = ""
 
