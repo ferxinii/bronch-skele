@@ -27,3 +27,5 @@ The top-left figure represents an input mesh. The rest of the figures are visual
 - Distance matrix between terminals through the bronchial tree.
 - Information of the terminals almost ready to input into the Bubble Model.
 
+## Credits
+The module relies on [skeletor](https://github.com/navis-org/skeletor) for the skeleton extraction. 
