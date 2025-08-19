@@ -1,7 +1,9 @@
 # bronch-skele
-Python module to extract the skeleton from a bronchial tree mesh, as well as information regarding generation, lobe, intrabronchial distance matrix, and terminal information ready for the Bubble Model.
+Python module to extract the skeleton from a bronchial tree mesh. This includes the geometry of the skeleton as well as the generation of each node, lung lobe and an intrabronchial distance matrix for the terminals.
 The file *main.py* contains an example on how to run the module.
 
+
+The top-left figure represents an input mesh. The rest of the figures are visualizations of the output. Top-right is the skeleton, bottom-left is classification of nodes per lung lobe, and bottom-right is the connectivity graph.
 <p align="center">
 <img src="./images/example_1.png" alt="Input mesh" width="400" height="auto" />
 <img src="./images/example_2.png" alt="Extracted skeleton" width="400" height="auto">
@@ -25,3 +27,5 @@ The file *main.py* contains an example on how to run the module.
 - Distance matrix between terminals through the bronchial tree.
 - Information of the terminals almost ready to input into the Bubble Model.
 
+## Details
+The module relies on [skeletor](https://github.com/navis-org/skeletor) for the skeleton extraction, and transforms and adapts the output to the context of bronchial trees.
