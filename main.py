@@ -21,10 +21,13 @@ PATH_LUNG_LEFT = ""
 
 # ---------- SKELETON EXTRACTION, INTRABRONCHIAL DISTANCE MATRIX AND TERMINAL INFORMATION -----------
 sk.stl2skel(PATH_STL, POS_TRACHEA, PATH_TERMINALS_TO_KEEP, OUTPUT_FOLDER)
+
 print("NOW EXTRACTING DATA...")
 sk.extract_data(OUTPUT_FOLDER, POS_TRACHEA, POS_PROPAGATE_LOBES)
+
 print("INTRABRONCHIAL DISTANCE...")
 sk.intrabronchial_distance(OUTPUT_FOLDER + "/aux/graph_2.graphml", POS_TRACHEA, OUTPUT_FOLDER + "/D.txt")
+
 print("TERMINALS FOR BUBBLE MODEL...")
 sk.extract_terminals_for_bm(OUTPUT_FOLDER + "/aux/graph_2.graphml", POS_TRACHEA, PATH_LOBULES, PATH_LOBES,
                              PATH_LUNG_RIGHT, PATH_LUNG_LEFT, OUTPUT_FOLDER + "/terminals.txt")
